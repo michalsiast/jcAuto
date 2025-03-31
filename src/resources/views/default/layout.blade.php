@@ -95,7 +95,7 @@
         <div class="header-lower">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href="/" style="display: flex;align-items: center"><img src="{{asset('images/logo.png')}}" alt=""> <h3 style="color: #fff;font-weight: 600;font-size: 20px;margin-left: 20px;">Niezależny serwis BMW i MINI</h3></a></figure>
+                    <figure class="logo"><a href="/" style="display: flex;align-items: center"><img src="{{asset('images/logo.png')}}" alt=""> <h3 style="color: #fff;font-weight: 600;margin-left: 20px;">Niezależny serwis BMW i MINI</h3></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <!--Mobile Navigation Toggler-->

@@ -698,12 +698,25 @@ img {
 .main-header .outer-box .logo-box{
   position: relative;
   padding: 17.5px 0px;
-  max-width: 410px;
+  max-width: 300px;
 }
-
+.main-header .outer-box .logo-box h3{
+    font-size: 18px;
+}
 .main-header .outer-box .logo-box img{
-  width: 100%;
-    max-width: 220px;
+    width: 100%;
+    max-width: 140px;
+}
+@media(min-width: 768px){
+    .main-header .outer-box .logo-box{
+        max-width: 410px;
+    }
+    .main-header .outer-box .logo-box img{
+        max-width: 220px;
+    }
+    .main-header .outer-box .logo-box h3{
+        font-size: 20px;
+    }
 }
 
 .main-header .outer-box .btn-box{
