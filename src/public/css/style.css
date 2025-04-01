@@ -2824,7 +2824,7 @@ div#mCSB_1_container{
 
 .main-footer{
   position: relative;
-  background: #3D3D3B;
+  background: #000;
 }
 
 .footer-top{
@@ -2900,7 +2900,7 @@ div#mCSB_1_container{
 .main-footer .widget-section{
   position: relative;
   padding: 65px 0px 75px 0px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #bc1622;
 }
 
 .main-footer .widget-section .widget-title{
@@ -3666,7 +3666,7 @@ div#mCSB_1_container{
 }
 
 .bg-color-3{
-  background: #3D3D3B;
+  background: #000000;
 }
 
 
@@ -3674,7 +3674,7 @@ div#mCSB_1_container{
 
 .service-style-two{
   position: relative;
-  padding: 130px 0px;
+  padding: 130px 0px 170px 0px;
 }
 
 .service-style-two .pattern-layer{
