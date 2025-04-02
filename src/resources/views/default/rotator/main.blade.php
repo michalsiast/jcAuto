@@ -23,33 +23,31 @@
 
 @push('scripts.body.bottom')
     <script>
-        // banner-carousel
-        if ($('.banner-carousel').length) {
-            $('.banner-carousel').owlCarousel({
-                loop:true,
-                margin:0,
-                nav:{{$rotator->arrows ? 'true' : 'false'}},
-                animateOut: 'fadeOut',
-                animateIn: 'fadeIn',
-                active: {{$rotator->pager ? 'true' : 'false'}},
-                smartSpeed: {{$rotator->speed ?? 500}},
-                autoplay: {{$rotator->time ?? 3000}},
-                navText: [ '<span class="flaticon-right-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    800:{
-                        items:1
-                    },
-                    1024:{
-                        items:1
-                    }
+        $('.banner-carousel').owlCarousel({
+            loop:true,
+            margin:0,
+            nav: true,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            active: true,
+            smartSpeed: {{$rotator->speed ?? 500}},
+            autoplay: true,
+            autoplayTimeout: {{$rotator->time ?? 3000}},
+            navText: [ '<span class="flaticon-right-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                800:{
+                    items:1
+                },
+                1024:{
+                    items:1
                 }
-            });
-        }
+            }
+        });
     </script>
 @endpush

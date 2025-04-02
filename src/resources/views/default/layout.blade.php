@@ -92,6 +92,14 @@
     <!-- main header -->
     <header class="main-header style-one">
         <!-- header-lower -->
+        <div class="header-top">
+            <div class="top-inner clearfix">
+                <ul class="right-info pull-right">
+                    <li><i class="fal fa-phone"></i><a href="tel:{{str_replace(' ', '', getConstField('phone'))}}">{{getConstField('phone')}}</a></li>
+                    <li><i class="far fa-envelope-open"></i><a href="mailto:{{getConstField('email')}}">{{getConstField('email')}}</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="header-lower">
             <div class="outer-box">
                 <div class="logo-box">
